@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Malla Curricular Interactiva</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Curricular Interactiva - Derecho</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Malla Curricular - Facultad</h1>
-  <div id="malla">
-    <div class="materia" onclick="mostrarInfo('intro')">Introducción al Derecho</div>
-    <div class="materia" onclick="mostrarInfo('civil')">Derecho Civil I</div>
-    <!-- Agregá más materias -->
-  </div>
-
-  <div id="infoMateria" class="oculto">
-    <h2 id="nombreMateria"></h2>
-    <p id="descripcionMateria"></p>
-  </div>
-
+  <h1>Malla Curricular Interactiva - Derecho</h1>
+  <p>Haz clic en una materia para "aprobarla" y desbloquear las que dependen de ella.</p>
+  <div id="creditos">Créditos aprobados: 0</div>
+  <div id="malla"></div>
   <script src="script.js"></script>
 </body>
 </html>
